@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# node
+node_modules
+yarn.lock
+
+data/words.vector.gz
+.idea

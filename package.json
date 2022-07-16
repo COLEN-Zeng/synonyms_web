@@ -1,0 +1,18 @@
+{
+  "name": "synonyms-web",
+  "version": "1.0.0",
+  "main": "main.py",
+  "repository": "git@github.com:COLEN-Zeng/synonyms_web.git",
+  "author": "unbugcolen",
+  "license": "MIT",
+  "scripts": {
+    "test": "python test.py",
+    "start:dev": "easy-deploy start toolchain/deploy/dev",
+    "start:prod": "easy-deploy start toolchain/deploy/prod",
+    "deploy:dev": "easy-deploy deploy ./deploy.js",
+    "deploy:prod": "easy-deploy deploy ./deploy.js"
+  },
+  "dependencies": {
+    "easy-deploy-tool": "^1.3.1"
+  }
+}
